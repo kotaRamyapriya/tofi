@@ -1,0 +1,23 @@
+{
+  "name": "backend-code-tofi",
+  "version": "1.0.0",
+  "description": "Backend code for your MERN project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "author": "Priya",
+  "license": "ISC"
+}
